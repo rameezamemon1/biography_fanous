@@ -13,17 +13,7 @@ const AboutMe = () => {
 
       <div className="about-me-container">
       <div className="techs">
-
-        As someone who loves mathematics, science, and computers, I consider
-        myself a futurist renaissance man
-        <br />
-        Math was my favorite subject because I could finish exams knowing I
-        scored 100%. <br />
-        I have built businesses in my past and am an excellent creator. <br />
-        I was taught to learn all parts of a business, and I quickly learn what
-        I don't know. <br />
-        Since 2011 my passion has been with AI, data science, with a focus on
-        financial applications.
+      Applied mathematics and machine learning Research and Software Engineer with focus on deep reinforcement learning and quantitative finance domain.
       </div>
       </div>
     </section>
