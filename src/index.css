@@ -175,7 +175,7 @@ body {
   justify-content: center;
   display: flex;
   width: 100%;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   height: 30vh;
   flex-wrap: wrap;
   flex-direction: row;
@@ -226,6 +226,21 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+
+.aboutme-container {
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 100vh;
+}
+
 
 .skills-container h1 {
   margin: 2rem 0;
@@ -323,7 +338,6 @@ body {
   align-items: center;
   text-align: center;
 }
-
 
 .projects {
   height: 23rem;
@@ -466,63 +480,63 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#structure_ML_projects{
+#structure_ML_projects {
   background-image: url("./images/certificates/structure_ML_projects.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#badge_img{
+#badge_img {
   background-image: url("https://images.credential.net/badge/tiny/hnutwwqh_badge.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#tensorflow_services{
+#tensorflow_services {
   background-image: url("./images/certificates/tensorflow_services.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#specialization_deeplearning{
+#specialization_deeplearning {
   background-image: url("./images/certificates/specialization_deeplearning.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#specialization_reinforcemnetlearning{
+#specialization_reinforcemnetlearning {
   background-image: url("./images/certificates/specialization_reinforcemnetlearning.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#tour_ML_finance{
+#tour_ML_finance {
   background-image: url("./images/certificates/tour_ML_finance.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#ML_intradingfinance{
+#ML_intradingfinance {
   background-image: url("./images/certificates/ML_intradingfinance.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#seq_time_prediction{
+#seq_time_prediction {
   background-image: url("./images/certificates/seq_time_prediction.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#improving_deaplearning{
+#improving_deaplearning {
   background-image: url("./images/certificates/improving_deaplearning.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#sample_based_learningmethods{
+#sample_based_learningmethods {
   background-image: url("./images/certificates/sample_based_learningmethods.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#neurallanguage_tensorflow{
+#neurallanguage_tensorflow {
   background-image: url("./images/certificates/neurallanguage_tensorflow.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-#neural_network_deeplearning{
+#neural_network_deeplearning {
   background-image: url("./images/certificates/neural_network_deeplearning.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -889,6 +903,16 @@ body {
   .svg {
     height: 40%;
   }
+  .about-me-container {
+    /* margin-top: -100px; */
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 2px;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+
+  }
+  
 }
 
 /* 415 */
@@ -897,6 +921,13 @@ body {
   .skill-content {
     font-size: 1rem;
   }
+  .about-me-container {
+    /* margin-top: -100px; */
+    font-family: "Varela Round", sans-serif;
+    color: black;
+    text-align: center;
+  }
+  
 }
 
 /* 395*/
@@ -908,11 +939,17 @@ body {
   .button {
     font-size: 0.8rem;
   }
+  .aboutme-container h1 {
+    margin-top: -60px;
+    font-family: "Varela Round", sans-serif;
+    color: black;
+    text-align: center;
+  }
+  
 }
-.about-me-container{
-  margin-top:-100px;
+.about-me-container {
+  margin-top: -100px;
   font-family: "Varela Round", sans-serif;
   color: black;
-text-align: center;
-
+  text-align: center;
 }
