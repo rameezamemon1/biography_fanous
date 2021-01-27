@@ -178,7 +178,18 @@ body {
   margin-top: 0.2rem;
   height: 30vh;
   flex-wrap: wrap;
+  min-height: 60vh;
+  width: 100%;
   flex-direction: row;
+}
+.projects-services {
+  height: 9rem;
+  width: 300px;
+  margin: .5rem;
+  /* background: #e7dddd5c; */
+  box-shadow: 3px 2px 10px gray;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 .services {
@@ -197,15 +208,18 @@ body {
   text-align: center;
 }
 
-.services:hover {
+/* .projects-services :hover {
   border: 1px solid gray;
+} */
+
+.projects-services img {
+  height: 5.7rem;
+  margin-top: 0.5rem;
+  border: 1px solid rgb(153, 151, 151);
+
 }
 
-.services img {
-  height: 3.7rem;
-}
-
-.services li {
+.projects-services li {
   list-style-type: none;
   font-family: "Varela Round", sans-serif;
   font-size: 1rem;
@@ -250,7 +264,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
+  width: 95%;
   /* background: #e7dddd5c; */
 
   box-shadow: 3px 2px 10px gray;
@@ -339,6 +353,17 @@ body {
   text-align: center;
 }
 
+.projects-container-services {
+  min-height: 40vh;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .projects {
   height: 23rem;
   width: 21rem;
@@ -348,6 +373,7 @@ body {
   cursor: pointer;
   border-radius: 10px;
 }
+
 
 .project-images {
   border-radius: 10px;
@@ -431,6 +457,7 @@ body {
   justify-content: space-evenly;
   width: 100%;
   min-height: 100vh;
+
 }
 
 /* Images Proportion (877 * 679) */
@@ -735,6 +762,7 @@ body {
 
 .button-wrapper {
   width: 100%;
+
 }
 
 .button:hover {
@@ -792,6 +820,18 @@ body {
   .svg-container {
     width: 100vw;
   }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
+  }
 }
 
 /*900 Mobile Nav Version */
@@ -825,6 +865,18 @@ body {
     margin: 0 1rem;
     font-size: 1.8rem;
     cursor: pointer;
+  }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 0.2rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
   }
 
   .nav-links .anchor {
@@ -861,6 +913,18 @@ body {
   .svg {
     height: 60%;
   }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 22rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
+  }
 }
 
 /* 500 */
@@ -871,6 +935,18 @@ body {
 
   .contact-btn {
     margin-right: 0;
+  }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
   }
 }
 
@@ -883,7 +959,18 @@ body {
   .main-content {
     font-size: 2rem;
   }
-
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
+  }
   .skill-content {
     margin: 0.6rem 0;
     font-size: 1.2rem;
@@ -910,7 +997,18 @@ body {
     color: black;
     text-align: center;
     font-size: 1rem;
-
+  }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
   }
   
 }
@@ -926,6 +1024,18 @@ body {
     font-family: "Varela Round", sans-serif;
     color: black;
     text-align: center;
+  }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
   }
   
 }
@@ -945,6 +1055,59 @@ body {
     color: black;
     text-align: center;
   }
+
+  .aboutme-container {
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    min-height: 100vh;
+  }
+
+  .services-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 170vh;
+    flex-direction: column;
+    font-family: "Exo 2", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    padding: 2rem;
+  }
+  .services-container {
+    margin-top: 8rem;
+  }
+  
+  .services-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .services-wrapper-two {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20rem;
+    height: 30vh;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: row;
+  }
+  
   
 }
 .about-me-container {

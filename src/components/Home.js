@@ -73,7 +73,7 @@ const Home = () => {
         <h4 className="welcome-content">WELCOME TO MY WORLD</h4>
         <br />
         <h1 className="main-content">
-          Hi, I’m Gregory Fenous
+          Hi, I’m Gregory Fanous
           <motion.span
             drag={true}
             dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}

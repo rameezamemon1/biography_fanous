@@ -15,36 +15,41 @@ const Services = () => {
   return (
     <section
       data-aos="zoom-in"
-      className="services-container"
+      className="achievements-container"
       name="services"
       id="services"
     >
       <h1 className="heading">Services I Provide</h1>
-      <div className="services-wrapper">
-        <div className="services">
+      <div className="projects-container-services">
+        <div className="projects-services">
           <li>
             <img src={AM} alt="" />
             <p>Applied Mathematics</p>
           </li>
         </div>
-        <div className="services">
+        <div className="projects-services">
           <li>
             <img src={ML} alt="" />
             <p>Machine Learning</p>
           </li>
         </div>
 
-        <div className="services">
+        <div className="projects-services">
           <li>
             <img src={SEQ} alt="" />
             <p>Sequenced and Time Series Prediction</p>
           </li>
         </div>
+        
+        <div className="projects-services">
+            <li>
+              <img src={NN} alt="" />
+              <p>Neural Networks and Deep Learning</p>
+            </li>
+          </div>
 
-
-      </div>
-      {showMore === false ? (
-        <div className="button-wrapper" style={{ width: '14%' }}>
+        {showMore === false ? (
+        <div className="">
           <button
             className="button contact-btn"
             onClick={() => setShowMore(true)}
@@ -55,38 +60,34 @@ const Services = () => {
       ) : (
           ""
         )}
+      </div>
+    
 
       {showMore === true ? (
 
-        <div className="services-wrapper-two" data-aos="zoom-in"
+        <div className="projects-container-services" data-aos="zoom-in"
         >
-          <div className="services">
-            <li>
-              <img src={NN} alt="" />
-              <p>Neural Networks and Deep Learning</p>
-            </li>
-          </div>
-
-          <div className="services">
+        
+          <div className="projects-services">
             <li>
               <img src={DEEP} alt="" />
               <p>Deep Reinforcement Learning</p>
             </li>
           </div>
 
-          <div className="services">
+          <div className="projects-services">
             <li>
               <img src={NLP} alt="" />
               <p>Natural Language Processing</p>
             </li>
           </div>
-          <div className="services">
+          <div className="projects-services">
             <li>
               <img src={synthesis} alt="" />
               <p>Image, Video, and Audio Synthesis</p>
             </li>
           </div>
-          <div className="services">
+          <div className="projects-services">
             <li>
               <img src={QF} alt="" />
               <p>Quantitative Finance</p>
